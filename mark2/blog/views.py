@@ -7,7 +7,7 @@ from django.utils import timezone
 from django.contrib.auth import get_user_model
 from blog.forms import PostForm, CommentForm
 from django.contrib.auth.decorators import user_passes_test
-from django.urls import reverse
+from django.core.urlresolvers import reverse
 from django.views.generic import (TemplateView,ListView,
                                   DetailView,CreateView,
                                   UpdateView,DeleteView)
